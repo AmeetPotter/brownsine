@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ameet Potter | The Creative Techie</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Harry+Potter&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h1><i class="fas fa-code"></i> Ameet<span class="magic-text">Potter</span></h1>
+            </div>
+            <div class="nav-links" id="navLinks">
+                <a href="#home"><i class="fas fa-home"></i> Home</a>
+                <a href="#about"><i class="fas fa-user"></i> About</a>
+                <a href="#blog"><i class="fas fa-blog"></i> Blog</a>
+                <a href="#work"><i class="fas fa-briefcase"></i> Work</a>
+                <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+            </div>
+            <button class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h2 class="hero-title">Hello, I'm <span class="magic-text">Ameet</span></h2>
+                <p class="hero-subtitle">I explain <span class="tech-text">Tech</span> in simple words & find <span class="magic-text">Magic</span> in stories</p>
+                <p class="hero-desc">Welcome to my digital space where technology meets creativity, and coding meets wizardry!</p>
+                <div class="hero-buttons">
+                    <a href="#work" class="btn btn-primary">See My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/ameetpotter?igsh=NnowdDlla3Jsd2ow" target="_blank" class="social-icon">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.facebook.com/share/16mSYxdwJ9/" target="_blank" class="social-icon">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="https://youtube.com/@budhanitechshorts?si=-bfQpdJmMyljb22V" target="_blank" class="social-icon">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-circle">
+                    <div class="profile-img"></div>
+                    <div class="circle-decoration"></div>
+                    <div class="tech-icons">
+                        <i class="fas fa-code"></i>
+                        <i class="fas fa-laptop-code"></i>
+                        <i class="fas fa-magic"></i>
+                        <i class="fas fa-book"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">About <span class="magic-text">Me</span></h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>The Techie Wizard</h3>
+                    <p>I'm a passionate content creator who loves to simplify technology for everyone. When I'm not creating tech shorts for YouTube, you'll find me immersed in the magical world of books, especially Harry Potter.</p>
+                    <p>My mission is to bridge the gap between complex technology and everyday users, making tech accessible and fun for all.</p>
+                    <div class="skills">
+                        <div class="skill">
+                            <span class="skill-name">Tech Explanations</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span class="skill-name">Content Creation</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span class="skill-name">Creative Writing</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <i class="fas fa-video"></i>
+                        <h3>100+</h3>
+                        <p>Tech Videos</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-users"></i>
+                        <h3>10K+</h3>
+                        <p>Followers</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-book-open"></i>
+                        <h3>50+</h3>
+                        <p>Books Read</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-lightbulb"></i>
+                        <h3>200+</h3>
+                        <p>Ideas Shared</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="blog" id="blog">
+        <div class="container">
+            <h2 class="section-title">My <span class="magic-text">Blog</span></h2>
+            <div class="blog-categories">
+                <button class="cat-btn active" data-cat="all">All Posts</button>
+                <button class="cat-btn" data-cat="tech">Tech Shorts</button>
+                <button class="cat-btn" data-cat="books">Book Nook</button>
+                <button class="cat-btn" data-cat="creative">Creative Corner</button>
+            </div>
+            <div class="blog-posts">
+                <div class="post-card" data-category="tech">
+                    <div class="post-img tech-post"></div>
+                    <div class="post-content">
+                        <span class="post-cat">Tech Shorts</span>
+                        <h3>5 WhatsApp Tricks You Didn't Know</h3>
+                        <p>Discover hidden features in WhatsApp that will make your chatting experience better...</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="post-card" data-category="books">
+                    <div class="post-img book-post"></div>
+                    <div class="post-content">
+                        <span class="post-cat">Book Nook</span>
+                        <h3>Harry Potter Tech: Magic Meets Reality</h3>
+                        <p>What if Hogwarts had modern technology? Let's explore the possibilities...</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="post-card" data-category="creative">
+                    <div class="post-img creative-post"></div>
+                    <div class="post-content">
+                        <span class="post-cat">Creative Corner</span>
+                        <h3>Finding Inspiration in Everyday Tech</h3>
+                        <p>How ordinary gadgets can spark extraordinary creative ideas...</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Section -->
+    <section class="work" id="work">
+        <div class="container">
+            <h2 class="section-title">My <span class="magic-text">Work</span></h2>
+            <div class="work-content">
+                <div class="work-video">
+                    <div class="video-placeholder">
+                        <i class="fab fa-youtube"></i>
+                        <h3>Tech Shorts on YouTube</h3>
+                        <p>Check out my latest tech explanations and tutorials</p>
+                        <a href="https://youtube.com/@budhanitechshorts?si=-bfQpdJmMyljb22V" target="_blank" class="btn btn-primary">
+                            Visit Channel <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work-projects">
+                    <h3>Featured Projects</h3>
+                    <div class="project-list">
+                        <div class="project">
+                            <i class="fas fa-mobile-alt"></i>
+                            <h4>App Review Series</h4>
+                            <p>Detailed reviews of useful mobile applications</p>
+                        </div>
+                        <div class="project">
+                            <i class="fas fa-camera"></i>
+                            <h4>Photo Editing Tutorials</h4>
+                            <p>Simple editing tricks for stunning photos</p>
+                        </div>
+                        <div class="project">
+                            <i class="fas fa-graduation-cap"></i>
+                            <h4>Tech for Beginners</h4>
+                            <p>Making complex tech simple for everyone</p>
+                        </div>
+                        <div class="project">
+                            <i class="fas fa-podcast"></i>
+                            <h4>Creative Podcast</h4>
+                            <p>Stories where tech meets imagination</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In <span class="magic-text">Touch</span></h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Collaborate!</h3>
+                    <p>Have a project idea or want to discuss tech and magic? Feel free to reach out!</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>technologybudhani@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Sonipat Haryana kundli </p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>Response Time</h4>
+                                <p>Within 24 hours</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <p>Connect with me on social media:</p>
+                        <div class="social-icons">
+                            <a href="https://www.instagram.com/ameetpotter?igsh=NnowdDlla3Jsd2ow" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/share/16mSYxdwJ9/" target="_blank"><i class="fab fa-facebook"></i></a>
+                            <a href="https://youtube.com/@budhanitechshorts?si=-bfQpdJmMyljb22V" target="_blank"><i class="fab fa-youtube"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message <i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2><i class="fas fa-code"></i> Ameet<span class="magic-text">Potter</span></h2>
+                    <p>Where Technology Meets Magic</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#blog">Blog</a>
+                    <a href="#work">Work</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-newsletter">
+                    <h3>Stay Updated</h3>
+                    <p>Subscribe for tech tips and creative insights</p>
+                    <div class="newsletter-form">
+                        <input type="email" placeholder="technologybudhani@gmail.com">
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Ameet Potter | The Creative Techie. All rights reserved.</p>
+                <p>Made with <i class="fas fa-heart"></i> and <i class="fas fa-magic"></i></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
